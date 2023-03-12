@@ -1,0 +1,68 @@
+[
+    {
+        "from": "S1_DC1",
+        "to": "A_MC",
+        "desc": "x",
+        "transit_lt": 3
+    },
+    {
+        "from": "S2_DC1",
+        "to": "A_MC",
+        "desc": "x",
+        "transit_lt": 2
+    },
+    {
+        "from": "A_MC",
+        "to": "A_DC1",
+        "desc": "x",
+        "transit_lt": 1
+    },
+    {
+        "from": "A_DC1",
+        "to": "B_MC1",
+        "desc": "x",
+        "transit_lt": 1
+    },
+    {
+        "from": "S3_DC1",
+        "to": "B_MC1",
+        "desc": "x",
+        "transit_lt": 2
+    },
+    {
+        "from": "S4_DC1",
+        "to": "B_MC1",
+        "desc": "x",
+        "transit_lt": 3
+    },
+    {
+        "from": "B_MC1",
+        "to": "B_MC2",
+        "desc": "x",
+        "transit_lt": 1
+    },
+    {
+        "from": "B_MC1",
+        "to": "B_DC1",
+        "desc": "x",
+        "transit_lt": 1
+    },
+    {
+        "from": "B_MC1",
+        "to": "B_DC2",
+        "desc": "x",
+        "transit_lt": 1
+    },
+    {
+        "from": "B_MC2",
+        "to": "B_DC1",
+        "desc": "x",
+        "transit_lt": 1
+    },
+    {
+        "from": "B_MC2",
+        "to": "B_DC2",
+        "desc": "x",
+        "transit_lt": 1
+    }
+]

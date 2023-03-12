@@ -1,0 +1,27 @@
+[
+    {
+        "supplier": "S1",
+        "buyer": "A",
+        "desc": "x"
+    },
+    {
+        "supplier": "S2",
+        "buyer": "A",
+        "desc": "x"
+    },
+    {
+        "supplier": "S3",
+        "buyer": "B",
+        "desc": "x"
+    },
+    {
+        "supplier": "S4",
+        "buyer": "B",
+        "desc": "x"
+    },
+    {
+        "supplier": "A",
+        "buyer": "B",
+        "desc": "x"
+    }
+]

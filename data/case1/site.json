@@ -1,0 +1,62 @@
+{
+    "S1_DC1": {
+        "desc": "x",
+        "loc": "(x, y)",
+        "company_id": "S1",
+        "site_type": "DISTRIBUTION_CENTER"
+    },
+    "S2_DC1": {
+        "desc": "x",
+        "loc": "(x, y)",
+        "company_id": "S2",
+        "site_type": "DISTRIBUTION_CENTER"
+    },
+    "S3_DC1": {
+        "desc": "x",
+        "loc": "(x, y)",
+        "company_id": "S3",
+        "site_type": "DISTRIBUTION_CENTER"
+    },
+    "S4_DC1": {
+        "desc": "x",
+        "loc": "(x, y)",
+        "company_id": "S4",
+        "site_type": "DISTRIBUTION_CENTER"
+    },
+    "A_MC": {
+        "desc": "x",
+        "loc": "(x, y)",
+        "company_id": "A",
+        "site_type": "MANUFACTURING_CENTER"
+    },
+    "A_DC1": {
+        "desc": "x",
+        "loc": "(x, y)",
+        "company_id": "A",
+        "site_type": "DISTRIBUTION_CENTER"
+    },
+    "B_MC1": {
+        "desc": "x",
+        "loc": "(x, y)",
+        "company_id": "B",
+        "site_type": "MANUFACTURING_CENTER"
+    },
+    "B_MC2": {
+        "desc": "x",
+        "loc": "(x, y)",
+        "company_id": "B",
+        "site_type": "MANUFACTURING_CENTER"
+    },
+    "B_DC1": {
+        "desc": "x",
+        "loc": "(x, y)",
+        "company_id": "B",
+        "site_type": "DISTRIBUTION_CENTER"
+    },
+    "B_DC2": {
+        "desc": "x",
+        "loc": "(x, y)",
+        "company_id": "B",
+        "site_type": "DISTRIBUTION_CENTER"
+    }
+}

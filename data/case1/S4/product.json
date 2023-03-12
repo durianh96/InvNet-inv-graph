@@ -1,0 +1,20 @@
+[
+    {
+        "company_id": "S4",
+        "material_id": "S4_000000",
+        "sale_site": "S4_DC1",
+        "sale_capacity": 11245.97,
+        "sale_price": 2900.79,
+        "sale_sla": 10,
+        "avg_fill_time": 10
+    },
+    {
+        "company_id": "S4",
+        "material_id": "S4_000001",
+        "sale_site": "S4_DC1",
+        "sale_capacity": 16864.87,
+        "sale_price": 2826.45,
+        "sale_sla": 10,
+        "avg_fill_time": 5
+    }
+]

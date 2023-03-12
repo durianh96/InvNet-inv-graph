@@ -1,0 +1,79 @@
+[
+    {
+        "company_id": "A",
+        "material_id": "A_MT000003",
+        "supplier": "S2",
+        "supply_site": "S2_DC1",
+        "order_site": "A_MC",
+        "order_cycle": 0,
+        "order_capacity": 14482.55,
+        "purchase_price": 2057.88,
+        "order_sla": 10
+    },
+    {
+        "company_id": "A",
+        "material_id": "A_MT000002",
+        "supplier": "S2",
+        "supply_site": "S2_DC1",
+        "order_site": "A_MC",
+        "order_cycle": 0,
+        "order_capacity": 19345.49,
+        "purchase_price": 2396.58,
+        "order_sla": 6
+    },
+    {
+        "company_id": "A",
+        "material_id": "A_MT000002",
+        "supplier": "S1",
+        "supply_site": "S1_DC1",
+        "order_site": "A_MC",
+        "order_cycle": 0,
+        "order_capacity": 13065.23,
+        "purchase_price": 1408.03,
+        "order_sla": 9
+    },
+    {
+        "company_id": "A",
+        "material_id": "A_MT000001",
+        "supplier": "S2",
+        "supply_site": "S2_DC1",
+        "order_site": "A_MC",
+        "order_cycle": 0,
+        "order_capacity": 11994.25,
+        "purchase_price": 67.39,
+        "order_sla": 3
+    },
+    {
+        "company_id": "A",
+        "material_id": "A_MT000001",
+        "supplier": "S1",
+        "supply_site": "S1_DC1",
+        "order_site": "A_MC",
+        "order_cycle": 0,
+        "order_capacity": 11603.98,
+        "purchase_price": 779.65,
+        "order_sla": 8
+    },
+    {
+        "company_id": "A",
+        "material_id": "A_MT000000",
+        "supplier": "S1",
+        "supply_site": "S1_DC1",
+        "order_site": "A_MC",
+        "order_cycle": 0,
+        "order_capacity": 18282.16,
+        "purchase_price": 1717.5,
+        "order_sla": 11
+    },
+    {
+        "company_id": "A",
+        "material_id": "A_MT000000",
+        "supplier": "S2",
+        "supply_site": "S2_DC1",
+        "order_site": "A_MC",
+        "order_cycle": 0,
+        "order_capacity": 10610.24,
+        "purchase_price": 1007.39,
+        "order_sla": 6
+    }
+]

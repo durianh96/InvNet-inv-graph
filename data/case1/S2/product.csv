@@ -1,0 +1,5 @@
+company_id,material_id,sale_site,sale_capacity,sale_price,sale_sla,avg_fill_time
+S2,A_MT000003,S2_DC1,14482.55,2057.88,10,3
+S2,A_MT000002,S2_DC1,19345.49,2396.58,6,11
+S2,A_MT000001,S2_DC1,11994.25,67.39,3,9
+S2,A_MT000000,S2_DC1,10610.24,1007.39,6,7

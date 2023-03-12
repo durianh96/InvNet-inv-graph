@@ -1,0 +1,38 @@
+[
+    {
+        "company_id": "S2",
+        "material_id": "A_MT000003",
+        "sale_site": "S2_DC1",
+        "sale_capacity": 14482.55,
+        "sale_price": 2057.88,
+        "sale_sla": 10,
+        "avg_fill_time": 3
+    },
+    {
+        "company_id": "S2",
+        "material_id": "A_MT000002",
+        "sale_site": "S2_DC1",
+        "sale_capacity": 19345.49,
+        "sale_price": 2396.58,
+        "sale_sla": 6,
+        "avg_fill_time": 11
+    },
+    {
+        "company_id": "S2",
+        "material_id": "A_MT000001",
+        "sale_site": "S2_DC1",
+        "sale_capacity": 11994.25,
+        "sale_price": 67.39,
+        "sale_sla": 3,
+        "avg_fill_time": 9
+    },
+    {
+        "company_id": "S2",
+        "material_id": "A_MT000000",
+        "sale_site": "S2_DC1",
+        "sale_capacity": 10610.24,
+        "sale_price": 1007.39,
+        "sale_sla": 6,
+        "avg_fill_time": 7
+    }
+]

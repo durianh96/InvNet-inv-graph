@@ -1,0 +1,42 @@
+{
+    "S1": {
+        "desc": "x",
+        "contained_sites": {
+            "S1_DC1": "DISTRIBUTION_CENTER"
+        }
+    },
+    "S2": {
+        "desc": "x",
+        "contained_sites": {
+            "S2_DC1": "DISTRIBUTION_CENTER"
+        }
+    },
+    "S3": {
+        "desc": "x",
+        "contained_sites": {
+            "S3_DC1": "DISTRIBUTION_CENTER"
+        }
+    },
+    "S4": {
+        "desc": "x",
+        "contained_sites": {
+            "S4_DC1": "DISTRIBUTION_CENTER"
+        }
+    },
+    "A": {
+        "desc": "x",
+        "contained_sites": {
+            "A_DC1": "DISTRIBUTION_CENTER",
+            "A_MC": "MANUFACTURING_CENTER"
+        }
+    },
+    "B": {
+        "desc": "x",
+        "contained_sites": {
+            "B_DC1": "DISTRIBUTION_CENTER",
+            "B_DC2": "DISTRIBUTION_CENTER",
+            "B_MC2": "MANUFACTURING_CENTER",
+            "B_MC1": "MANUFACTURING_CENTER"
+        }
+    }
+}

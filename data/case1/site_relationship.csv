@@ -1,0 +1,12 @@
+from,to,desc,transit_lt
+S1_DC1,A_MC,x,3
+S2_DC1,A_MC,x,2
+A_MC,A_DC1,x,1
+A_DC1,B_MC1,x,1
+S3_DC1,B_MC1,x,2
+S4_DC1,B_MC1,x,3
+B_MC1,B_MC2,x,1
+B_MC1,B_DC1,x,1
+B_MC1,B_DC2,x,1
+B_MC2,B_DC1,x,1
+B_MC2,B_DC2,x,1

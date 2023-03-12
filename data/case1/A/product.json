@@ -1,0 +1,56 @@
+[
+    {
+        "company_id": "A",
+        "material_id": "A_MT000028",
+        "sale_site": "A_DC1",
+        "sale_capacity": 19949.54,
+        "sale_price": 208647.3,
+        "sale_sla": 12,
+        "avg_fill_time": 10
+    },
+    {
+        "company_id": "A",
+        "material_id": "A_MT000025",
+        "sale_site": "A_DC1",
+        "sale_capacity": 12512.72,
+        "sale_price": 135883.86,
+        "sale_sla": 4,
+        "avg_fill_time": 5
+    },
+    {
+        "company_id": "A",
+        "material_id": "A_MT000026",
+        "sale_site": "A_DC1",
+        "sale_capacity": 11115.65,
+        "sale_price": 174503.3,
+        "sale_sla": 6,
+        "avg_fill_time": 10
+    },
+    {
+        "company_id": "A",
+        "material_id": "A_MT000027",
+        "sale_site": "A_DC1",
+        "sale_capacity": 14430.98,
+        "sale_price": 284628.5,
+        "sale_sla": 5,
+        "avg_fill_time": 5
+    },
+    {
+        "company_id": "A",
+        "material_id": "A_MT000029",
+        "sale_site": "A_DC1",
+        "sale_capacity": 17616.76,
+        "sale_price": 291492.92,
+        "sale_sla": 4,
+        "avg_fill_time": 9
+    },
+    {
+        "company_id": "A",
+        "material_id": "A_MT000021",
+        "sale_site": "A_DC1",
+        "sale_capacity": 11175.32,
+        "sale_price": 15509.03,
+        "sale_sla": 8,
+        "avg_fill_time": 9
+    }
+]
