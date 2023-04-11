@@ -17,7 +17,7 @@ class DiGraph:
         else:
             self._edges_pool = edges_pool
 
-        self._graph_type = graph_type
+        self._graph_type = graph_type  # 'TREE' or 'GENERAL'
         self._root_nodes_pool = None
         self._sink_nodes_pool = None
 
@@ -112,6 +112,10 @@ class DiGraph:
         self._edges_pool.pop(edge_id, None)
 
     def update_topo_info(self):
+        nodes_from_edges = set([node for tu in self.edges for node in tu])
+        if len(self.edges) > 0 and (nodes_from_edges != self.nodes):
+            raise ValueError('Nodes in edges are not consistent with nodes in nodes_pool.')
+
         self.find_roots()
         self.find_sinks()
         self.find_preds_of_node()
@@ -193,8 +197,8 @@ class DiGraph:
 
     def decompose_graph(self, to_remove_edges=None):
         """
-        The above function decomposes the graph into subgraphs.
-        
+        This function decomposes the graph into subgraphs.
+
         :param to_remove_edges: a list of edges to be removed from the graph
         :return: A list of subgraphs
         """
@@ -206,10 +210,8 @@ class DiGraph:
         components = find_weakly_connected_components(self.nodes, new_edges)
 
         if len(components) == 1:
-            print('This graph can not be decomposed')
             return [self]
         else:
-            print('This graph can be decomposed')
             sub_graph_list = []
             for component in components:
                 connected_nodes = component[0]
@@ -223,15 +225,11 @@ class DiGraph:
         sub_graph = self._get_sub_graph(sub_nodes, sub_edges)
         return sub_graph
 
-    """
-    > Given a list of nodes, return a subgraph of the current graph that contains only those nodes and
-    the edges between them
-    
-    :param sub_nodes: a list of nodes that you want to include in the subgraph
-    :return: A subgraph of the original graph.
-    """
-    def get_sub_graph_from_sub_nodes(self, sub_nodes):
-        sub_edges = [(pred, succ) for (pred, succ) in self.edges if (pred in sub_nodes) and (succ in sub_nodes)]
+    def get_sub_graph_from_sub_nodes(self, sub_nodes, include_incoming_edges=False):
+        if include_incoming_edges:
+            sub_edges = [(pred, succ) for (pred, succ) in self.edges if succ in sub_nodes]
+        else:
+            sub_edges = [(pred, succ) for (pred, succ) in self.edges if (pred in sub_nodes) and (succ in sub_nodes)]
         sub_graph = self._get_sub_graph(sub_nodes, sub_edges)
         return sub_graph
 
@@ -240,17 +238,16 @@ class DiGraph:
         sub_edges_pool = {e: copy.deepcopy(self._edges_pool[e]) for e in sub_edges}
         if self._graph_level == 'COMPANY':
             sub_graph = CompanyGraph(nodes_pool=sub_nodes_pool, edges_pool=sub_edges_pool)
-
+            sub_graph.update_topo_info()
         elif self._graph_level == 'SITE':
             sub_graph = SiteGraph(nodes_pool=sub_nodes_pool, edges_pool=sub_edges_pool)
-
+            sub_graph.update_topo_info()
         elif self._graph_level == 'MATERIAL':
             sub_graph = MaterialGraph(nodes_pool=sub_nodes_pool, edges_pool=sub_edges_pool)
-
+            sub_graph.update_topo_info()
+            sub_graph.update_net_qty()
         else:
             raise AttributeError
-
-        sub_graph.update_topo_info()
 
         return sub_graph
 
@@ -275,11 +272,11 @@ class CompanyGraph(DiGraph):
 
     @property
     def contained_demand_sites_of_company(self):
-        return {c_id: self._nodes_pool[c_id].contained_dc_sites for c_id in self.nodes}
+        return {c_id: self._nodes_pool[c_id].contained_demand_sites for c_id in self.nodes}
 
     @property
     def contained_manu_sites_of_company(self):
-        return {c_id: self._nodes_pool[c_id].contained_mc_sites for c_id in self.nodes}
+        return {c_id: self._nodes_pool[c_id].contained_manu_sites for c_id in self.nodes}
 
 
 class SiteGraph(DiGraph):
@@ -300,13 +297,7 @@ class SiteGraph(DiGraph):
 
     def sites_transit_lt(self, u: str, v: str):
         """
-        > Given two nodes, return the minimum transit latency of all paths between them
-        
-        :param u: str, v: str: the two nodes between which we want to find the shortest path
-        :type u: str
-        :param v: the number of nodes in the network
-        :type v: str
-        :return: The minimum transit latency between two nodes.
+        Given two nodes, return the minimum transit time between them
         """
         if (u, v) in self.edges:
             return self._edges_pool[(u, v)].transit_lt
@@ -327,22 +318,29 @@ class SiteGraph(DiGraph):
 
 class MaterialGraph(DiGraph):
     def __init__(self, nodes_pool: Optional[dict] = None,
-                 # 
                  edges_pool: Optional[dict] = None):
         super().__init__(nodes_pool, edges_pool)
         self._graph_level = 'MATERIAL'
+        self._edge_qty = None
         self._net_qty = None
         self._alter_nodes_pool = None
+        self._materials = None
 
     @property
     def alter_nodes_pool(self):
         if self._alter_nodes_pool is None:
-            self.update_alter_nodes_pool()
+            self._alter_nodes_pool = {n_id: n for n_id, n in self._nodes_pool.items() if n.alter_type != 'NO'}
         return self._alter_nodes_pool
 
     @property
+    def alter_nodes(self):
+        return set(self._alter_nodes_pool.keys())
+
+    @property
     def edge_qty(self):
-        return {e_id: e.qty for e_id, e in self._edges_pool.items()}
+        if self._edge_qty is None:
+            self._edge_qty = {e_id: e.qty for e_id, e in self._edges_pool.items()}
+        return self._edge_qty
 
     @property
     def net_qty(self):
@@ -350,60 +348,26 @@ class MaterialGraph(DiGraph):
             self.update_net_qty()
         return self._net_qty
 
-    def update_alter_nodes_pool(self):
-        self._alter_nodes_pool = {n_id: n for n_id, n in self._nodes_pool.items()
-                                  if n.node_type == 'ALTER_MATERIAL'}
+    @property
+    def materials(self):
+        if self._materials is None:
+            self._materials = set([n.material_id for n in self._nodes_pool.values()])
+        return self._materials
 
     def update_incoming_edges_info(self):
+        self.update_default_alter_decision_ratio()
         for n_id, n in self._nodes_pool.items():
-            inc_edges_info = {(pred, n_id): {'transit_lt': self._edges_pool[(pred, n_id)].transit_lt,
-                                             'decision_ratio': self._edges_pool[(pred, n_id)].decision_ratio}
+            inc_edges_info = {(pred, n_id): {'original_qty': self._edges_pool[(pred, n_id)].original_qty,
+                                             'decision_ratio': self._edges_pool[(pred, n_id)].decision_ratio,
+                                             'transit_lt': self._edges_pool[(pred, n_id)].transit_lt}
                               for pred in n.pred_nodes}
             n.update_incoming_edges_info(inc_edges_info)
 
     def update_default_alter_decision_ratio(self):
         for n_id, n in self.alter_nodes_pool.items():
-            n.update_decision_ratio()
-            for e_id, e in n.incoming_edges_info.items():
-                self._edges_pool[e_id].update_decision_ratio(e['decision_ratio'])
-
-    def update_cum_lt_info(self):
-        lt_of_node = {n_id: n.lt for n_id, n in self._nodes_pool.items()}
-        preds_of_node = {n_id: n.pred_nodes for n_id, n in self._nodes_pool.items()}
-        preds_of_node.update({r: {'start'} for r in self.roots})
-
-        cum_lt_of_node = {n_id: -float('inf') for n_id in self.topo_sort}
-        cum_lt_of_node['start'] = 0.0
-        longest_pred_of_node = {n_id: set() for n_id in self.topo_sort}
-
-        for n_id in self.topo_sort:
-            if self._nodes_pool[n_id].node_type != 'ALTER_MATERIAL':
-                for pred in preds_of_node[n_id]:
-                    tmp = cum_lt_of_node[pred] + lt_of_node[n_id]
-                    if cum_lt_of_node[n_id] < tmp:
-                        longest_pred_of_node[n_id] = {pred}
-                        cum_lt_of_node[n_id] = tmp
-                    elif cum_lt_of_node[n_id] == tmp:
-                        longest_pred_of_node[n_id].add(pred)
-            else:
-                tmp = {e_id[0]: cum_lt_of_node[e_id[0]] + lt_of_node[n_id]
-                       for e_id, inc_e_info in self._nodes_pool[n_id].incoming_edges_info.items()
-                       if inc_e_info['decision_ratio'] > 0}
-                if self._nodes_pool[n_id].alter_time_mode == 'EXP':
-                    cum_lt_of_node[n_id] = sum(
-                        [t * self._nodes_pool[n_id].incoming_edges_info[(pred, n_id)]['decision_ratio']
-                         for pred, t in tmp.items()]
-                    )
-                elif self._nodes_pool[n_id].alter_time_mode == 'MAX':
-                    cum_lt_of_node[n_id] = max(tmp.values())
-                elif self._nodes_pool[n_id].alter_time_mode == 'MIN':
-                    cum_lt_of_node[n_id] = min(tmp.values())
-                longest_pred_of_node[n_id] = set([pred for pred, t in tmp.items() if t == cum_lt_of_node[n_id]])
-        cum_lt_of_node.pop('start')
-
-        for n_id, n in self._nodes_pool.items():
-            n.update_cum_lt(cum_lt_of_node[n_id])
-            n.update_longest_pred(longest_pred_of_node[n_id])
+            default_ratio = round(1 / n.in_degree, 2)
+            for pred in n.pred_nodes:
+                self._edges_pool[(pred, n_id)].update_decision_ratio(default_ratio)
 
     def update_net_qty(self):
         self._net_qty = cal_net_qty(self.edges, self.edge_qty)

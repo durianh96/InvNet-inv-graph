@@ -1,3 +1,3 @@
 company_id,material_id,sale_site,sale_capacity,sale_price,sale_sla,avg_fill_time
-S3,S3_000000,S3_DC1,16839.69,1037.86,13,5
-S3,S3_000001,S3_DC1,13996.39,155.85,11,4
+S3,S3_000000,S3_DC1,19415.74,1230.52,3,9
+S3,S3_000001,S3_DC1,15531.08,454.33,12,5

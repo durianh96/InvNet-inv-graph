@@ -24,7 +24,12 @@ class SiteData:
         self.site = df.set_index('site_id').T.to_dict()
 
     def get_from_site_graph(self, site_graph):
-        self.site = {s_id: {'desc': s.desc, 'loc': s.loc, 'company_id': s.company_id, 'site_type': s.node_type}
+        self.site = {s_id: {'company_id': s.company_id,
+                            'desc': s.desc,
+                            'address': s.address,
+                            'province': s.province,
+                            'city': s.city,
+                            'district': s.district}
                      for s_id, s in site_graph.nodes_pool.items()}
 
     def write_to_json(self, file_dir):

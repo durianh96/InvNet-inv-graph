@@ -1,62 +1,82 @@
 {
     "S1_DC1": {
-        "desc": "x",
-        "loc": "(x, y)",
         "company_id": "S1",
-        "site_type": "DISTRIBUTION_CENTER"
+        "desc": "x",
+        "address": "x",
+        "province": "x",
+        "city": "x",
+        "district": "x"
     },
     "S2_DC1": {
-        "desc": "x",
-        "loc": "(x, y)",
         "company_id": "S2",
-        "site_type": "DISTRIBUTION_CENTER"
+        "desc": "x",
+        "address": "x",
+        "province": "x",
+        "city": "x",
+        "district": "x"
     },
     "S3_DC1": {
-        "desc": "x",
-        "loc": "(x, y)",
         "company_id": "S3",
-        "site_type": "DISTRIBUTION_CENTER"
+        "desc": "x",
+        "address": "x",
+        "province": "x",
+        "city": "x",
+        "district": "x"
     },
     "S4_DC1": {
-        "desc": "x",
-        "loc": "(x, y)",
         "company_id": "S4",
-        "site_type": "DISTRIBUTION_CENTER"
+        "desc": "x",
+        "address": "x",
+        "province": "x",
+        "city": "x",
+        "district": "x"
     },
     "A_MC": {
-        "desc": "x",
-        "loc": "(x, y)",
         "company_id": "A",
-        "site_type": "MANUFACTURING_CENTER"
+        "desc": "x",
+        "address": "x",
+        "province": "x",
+        "city": "x",
+        "district": "x"
     },
     "A_DC1": {
-        "desc": "x",
-        "loc": "(x, y)",
         "company_id": "A",
-        "site_type": "DISTRIBUTION_CENTER"
+        "desc": "x",
+        "address": "x",
+        "province": "x",
+        "city": "x",
+        "district": "x"
     },
     "B_MC1": {
-        "desc": "x",
-        "loc": "(x, y)",
         "company_id": "B",
-        "site_type": "MANUFACTURING_CENTER"
+        "desc": "x",
+        "address": "x",
+        "province": "x",
+        "city": "x",
+        "district": "x"
     },
     "B_MC2": {
-        "desc": "x",
-        "loc": "(x, y)",
         "company_id": "B",
-        "site_type": "MANUFACTURING_CENTER"
+        "desc": "x",
+        "address": "x",
+        "province": "x",
+        "city": "x",
+        "district": "x"
     },
     "B_DC1": {
-        "desc": "x",
-        "loc": "(x, y)",
         "company_id": "B",
-        "site_type": "DISTRIBUTION_CENTER"
+        "desc": "x",
+        "address": "x",
+        "province": "x",
+        "city": "x",
+        "district": "x"
     },
     "B_DC2": {
-        "desc": "x",
-        "loc": "(x, y)",
         "company_id": "B",
-        "site_type": "DISTRIBUTION_CENTER"
+        "desc": "x",
+        "address": "x",
+        "province": "x",
+        "city": "x",
+        "district": "x"
     }
 }

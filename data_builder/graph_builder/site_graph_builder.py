@@ -1,6 +1,6 @@
 from inv_net.edge import TransitEdge
 from inv_net.graph import SiteGraph
-from inv_net.node import DistributionCenterNode, ManufacturingCenterNode
+from inv_net.node import SiteNode
 from data_builder.data_template.site_level import SiteData, SiteRelationshipData
 
 
@@ -18,22 +18,16 @@ def default_site_graph_builder(site_data: SiteData, site_relationship_data: Site
     """
     _nodes_pool = {}
     for site_id, site_info in site_data.site.items():
-        if site_info['site_type'] == 'DISTRIBUTION_CENTER':
-            _nodes_pool[site_id] = DistributionCenterNode(
-                node_id=site_id,
-                desc=site_info['desc'],
-                loc=site_info['loc'],
-                company_id=site_info['company_id']
-            )
-        elif site_info['site_type'] == 'MANUFACTURING_CENTER':
-            _nodes_pool[site_id] = ManufacturingCenterNode(
-                node_id=site_id,
-                desc=site_info['desc'],
-                loc=site_info['loc'],
-                company_id=site_info['company_id']
-            )
-        else:
-            raise AttributeError
+        _nodes_pool[site_id] = SiteNode(
+            node_id=site_id,
+            company_id=site_info['company_id'],
+            desc=site_info['desc'],
+            address=site_info['address'],
+            province=site_info['province'],
+            city=site_info['city'],
+            district=site_info['district']
+        )
+
     _edges_pool = {}
     for e in site_relationship_data.site_relationship:
         _edges_pool[(e['from'], e['to'])] = TransitEdge(

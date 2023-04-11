@@ -25,9 +25,9 @@ class InvNetVisualization:
         all_companies_list = list(self.company_graph.companies)
         node_type_desc = {}
         for n in self.material_graph.nodes_pool.values():
-            if n.node_type not in node_type_desc:
-                node_type_desc[n.node_type] = set()
-            node_type_desc[n.node_type].add(n.desc)
+            if n.node_level not in node_type_desc:
+                node_type_desc[n.node_level] = set()
+            node_type_desc[n.node_level].add(n.desc)
         node_type_desc_txt = [str(node_type) + ': ' + str(node_descs) for node_type, node_descs in
                               node_type_desc.items()]
 
@@ -212,11 +212,9 @@ class InvNetVisualization:
                     table_header = [
                         html.Thead(html.Tr([html.Th("Info"), html.Th("Value")]))
                     ]
-                    row_names = ['company_id', 'site_id', 'material_id', 'desc', 'make_or_buy', 'in_degree',
-                                 'out_degree',
-                                 'pred_nodes', 'succ_nodes', 'lt', 'process_lt', 'cum_lt', 'holding_cost',
-                                 'material_cost',
-                                 'inv_type', 'node_type', 'former_fill_time', 'sale_sla']
+                    row_names = ['company_id', 'site_id', 'material_id', 'desc', 'inv_type', 'cycle', 'alter_type',
+                                 'process_lt', 'holding_cost', 'material_cost', 'is_fg', 'sale_sla',
+                                 'in_degree', 'out_degree', 'pred_nodes', 'succ_nodes']
                     table_body = [html.Tbody([html.Tr([html.Td(row_n), html.Td(data[row_n])]) for row_n in row_names])]
                     contents.append(dbc.Table(table_header + table_body, bordered=True))
             return contents
@@ -279,7 +277,7 @@ class InvNetVisualization:
                     'node_size': int(np.sqrt(1 + n.degree) * 10),
                     'ele_type': 'node'
                 },
-                'classes': n.node_type,
+                'classes': n.node_level,
                 'selectable': True,
                 'grabbable': False,
             }
@@ -302,7 +300,7 @@ class InvNetVisualization:
                 'selectable': True,
                 'grabbable': False,
             }
-            ed['data'].update(e.material_edge_full_str_info)
+            ed['data'].update(e.material_edge_info)
             edges_info.append(ed)
         return edges_info
 

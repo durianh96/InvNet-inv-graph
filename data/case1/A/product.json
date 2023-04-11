@@ -1,56 +1,56 @@
 [
     {
         "company_id": "A",
-        "material_id": "A_MT000028",
-        "sale_site": "A_DC1",
-        "sale_capacity": 19949.54,
-        "sale_price": 208647.3,
-        "sale_sla": 12,
-        "avg_fill_time": 10
-    },
-    {
-        "company_id": "A",
         "material_id": "A_MT000025",
         "sale_site": "A_DC1",
-        "sale_capacity": 12512.72,
-        "sale_price": 135883.86,
-        "sale_sla": 4,
-        "avg_fill_time": 5
+        "sale_capacity": 14454.34,
+        "sale_price": 9496.95,
+        "sale_sla": 11,
+        "avg_fill_time": 8
     },
     {
         "company_id": "A",
-        "material_id": "A_MT000026",
+        "material_id": "A_MT000028",
         "sale_site": "A_DC1",
-        "sale_capacity": 11115.65,
-        "sale_price": 174503.3,
+        "sale_capacity": 11269.92,
+        "sale_price": 41401.86,
+        "sale_sla": 3,
+        "avg_fill_time": 8
+    },
+    {
+        "company_id": "A",
+        "material_id": "A_MT000016",
+        "sale_site": "A_DC1",
+        "sale_capacity": 13954.05,
+        "sale_price": 5237.74,
         "sale_sla": 6,
-        "avg_fill_time": 10
+        "avg_fill_time": 4
     },
     {
         "company_id": "A",
         "material_id": "A_MT000027",
         "sale_site": "A_DC1",
-        "sale_capacity": 14430.98,
-        "sale_price": 284628.5,
+        "sale_capacity": 18150.17,
+        "sale_price": 74832.49,
+        "sale_sla": 13,
+        "avg_fill_time": 8
+    },
+    {
+        "company_id": "A",
+        "material_id": "A_MT000026",
+        "sale_site": "A_DC1",
+        "sale_capacity": 17627.32,
+        "sale_price": 30228.0,
         "sale_sla": 5,
-        "avg_fill_time": 5
+        "avg_fill_time": 7
     },
     {
         "company_id": "A",
         "material_id": "A_MT000029",
         "sale_site": "A_DC1",
-        "sale_capacity": 17616.76,
-        "sale_price": 291492.92,
-        "sale_sla": 4,
-        "avg_fill_time": 9
-    },
-    {
-        "company_id": "A",
-        "material_id": "A_MT000021",
-        "sale_site": "A_DC1",
-        "sale_capacity": 11175.32,
-        "sale_price": 15509.03,
-        "sale_sla": 8,
-        "avg_fill_time": 9
+        "sale_capacity": 14277.31,
+        "sale_price": 65073.97,
+        "sale_sla": 10,
+        "avg_fill_time": 3
     }
 ]

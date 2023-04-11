@@ -1,7 +1,21 @@
 [
     {
         "company_id": "B",
-        "material_id": "B_MT000026",
+        "material_id": "B_MT000013",
+        "manu_site": "B_MC2",
+        "manu_lt": 8,
+        "manu_cycle": 0
+    },
+    {
+        "company_id": "B",
+        "material_id": "B_MT000015",
+        "manu_site": "B_MC2",
+        "manu_lt": 7,
+        "manu_cycle": 0
+    },
+    {
+        "company_id": "B",
+        "material_id": "B_MT000012",
         "manu_site": "B_MC2",
         "manu_lt": 10,
         "manu_cycle": 0
@@ -15,100 +29,9 @@
     },
     {
         "company_id": "B",
-        "material_id": "B_MT000015",
-        "manu_site": "B_MC1",
-        "manu_lt": 11,
-        "manu_cycle": 0
-    },
-    {
-        "company_id": "B",
-        "material_id": "B_MT000014",
-        "manu_site": "B_MC1",
-        "manu_lt": 5,
-        "manu_cycle": 0
-    },
-    {
-        "company_id": "B",
-        "material_id": "B_MT000012",
+        "material_id": "B_MT000010",
         "manu_site": "B_MC2",
-        "manu_lt": 4,
-        "manu_cycle": 0
-    },
-    {
-        "company_id": "B",
-        "material_id": "B_MT000033",
-        "manu_site": "B_MC2",
-        "manu_lt": 4,
-        "manu_cycle": 0
-    },
-    {
-        "company_id": "B",
-        "material_id": "B_MT000031",
-        "manu_site": "B_MC2",
-        "manu_lt": 5,
-        "manu_cycle": 0
-    },
-    {
-        "company_id": "B",
-        "material_id": "B_MT000025",
-        "manu_site": "B_MC1",
-        "manu_lt": 8,
-        "manu_cycle": 0
-    },
-    {
-        "company_id": "B",
-        "material_id": "B_MT000023",
-        "manu_site": "B_MC2",
-        "manu_lt": 4,
-        "manu_cycle": 0
-    },
-    {
-        "company_id": "B",
-        "material_id": "B_MT000013",
-        "manu_site": "B_MC1",
-        "manu_lt": 8,
-        "manu_cycle": 0
-    },
-    {
-        "company_id": "B",
-        "material_id": "B_MT000016",
-        "manu_site": "B_MC1",
-        "manu_lt": 12,
-        "manu_cycle": 0
-    },
-    {
-        "company_id": "B",
-        "material_id": "B_MT000027",
-        "manu_site": "B_MC2",
-        "manu_lt": 6,
-        "manu_cycle": 0
-    },
-    {
-        "company_id": "B",
-        "material_id": "B_MT000032",
-        "manu_site": "B_MC2",
-        "manu_lt": 3,
-        "manu_cycle": 0
-    },
-    {
-        "company_id": "B",
-        "material_id": "B_MT000011",
-        "manu_site": "B_MC2",
-        "manu_lt": 8,
-        "manu_cycle": 0
-    },
-    {
-        "company_id": "B",
-        "material_id": "B_MT000019",
-        "manu_site": "B_MC2",
-        "manu_lt": 11,
-        "manu_cycle": 0
-    },
-    {
-        "company_id": "B",
-        "material_id": "B_MT000020",
-        "manu_site": "B_MC1",
-        "manu_lt": 4,
+        "manu_lt": 13,
         "manu_cycle": 0
     },
     {
@@ -120,58 +43,135 @@
     },
     {
         "company_id": "B",
-        "material_id": "B_MT000029",
+        "material_id": "B_MT000016",
         "manu_site": "B_MC1",
-        "manu_lt": 11,
+        "manu_lt": 13,
+        "manu_cycle": 0
+    },
+    {
+        "company_id": "B",
+        "material_id": "B_MT000014",
+        "manu_site": "B_MC2",
+        "manu_lt": 10,
         "manu_cycle": 0
     },
     {
         "company_id": "B",
         "material_id": "B_MT000022",
-        "manu_site": "B_MC2",
-        "manu_lt": 7,
-        "manu_cycle": 0
-    },
-    {
-        "company_id": "B",
-        "material_id": "B_MT000030",
-        "manu_site": "B_MC2",
-        "manu_lt": 3,
-        "manu_cycle": 0
-    },
-    {
-        "company_id": "B",
-        "material_id": "B_MT000010",
-        "manu_site": "B_MC2",
-        "manu_lt": 7,
-        "manu_cycle": 0
-    },
-    {
-        "company_id": "B",
-        "material_id": "B_MT000017",
         "manu_site": "B_MC1",
-        "manu_lt": 12,
+        "manu_lt": 8,
+        "manu_cycle": 0
+    },
+    {
+        "company_id": "B",
+        "material_id": "B_MT000027",
+        "manu_site": "B_MC2",
+        "manu_lt": 9,
         "manu_cycle": 0
     },
     {
         "company_id": "B",
         "material_id": "B_MT000018",
         "manu_site": "B_MC1",
-        "manu_lt": 10,
+        "manu_lt": 5,
         "manu_cycle": 0
     },
     {
         "company_id": "B",
-        "material_id": "B_MT000021",
+        "material_id": "B_MT000025",
+        "manu_site": "B_MC1",
+        "manu_lt": 3,
+        "manu_cycle": 0
+    },
+    {
+        "company_id": "B",
+        "material_id": "B_MT000029",
         "manu_site": "B_MC2",
-        "manu_lt": 11,
+        "manu_lt": 12,
+        "manu_cycle": 0
+    },
+    {
+        "company_id": "B",
+        "material_id": "B_MT000023",
+        "manu_site": "B_MC2",
+        "manu_lt": 10,
         "manu_cycle": 0
     },
     {
         "company_id": "B",
         "material_id": "B_MT000024",
         "manu_site": "B_MC2",
-        "manu_lt": 3,
+        "manu_lt": 10,
+        "manu_cycle": 0
+    },
+    {
+        "company_id": "B",
+        "material_id": "B_MT000026",
+        "manu_site": "B_MC2",
+        "manu_lt": 13,
+        "manu_cycle": 0
+    },
+    {
+        "company_id": "B",
+        "material_id": "B_MT000019",
+        "manu_site": "B_MC2",
+        "manu_lt": 10,
+        "manu_cycle": 0
+    },
+    {
+        "company_id": "B",
+        "material_id": "B_MT000030",
+        "manu_site": "B_MC2",
+        "manu_lt": 13,
+        "manu_cycle": 0
+    },
+    {
+        "company_id": "B",
+        "material_id": "B_MT000032",
+        "manu_site": "B_MC2",
+        "manu_lt": 5,
+        "manu_cycle": 0
+    },
+    {
+        "company_id": "B",
+        "material_id": "B_MT000017",
+        "manu_site": "B_MC2",
+        "manu_lt": 6,
+        "manu_cycle": 0
+    },
+    {
+        "company_id": "B",
+        "material_id": "B_MT000031",
+        "manu_site": "B_MC2",
+        "manu_lt": 13,
+        "manu_cycle": 0
+    },
+    {
+        "company_id": "B",
+        "material_id": "B_MT000020",
+        "manu_site": "B_MC1",
+        "manu_lt": 13,
+        "manu_cycle": 0
+    },
+    {
+        "company_id": "B",
+        "material_id": "B_MT000021",
+        "manu_site": "B_MC1",
+        "manu_lt": 12,
+        "manu_cycle": 0
+    },
+    {
+        "company_id": "B",
+        "material_id": "B_MT000011",
+        "manu_site": "B_MC1",
+        "manu_lt": 13,
+        "manu_cycle": 0
+    },
+    {
+        "company_id": "B",
+        "material_id": "B_MT000033",
+        "manu_site": "B_MC2",
+        "manu_lt": 13,
         "manu_cycle": 0
     }
 ]

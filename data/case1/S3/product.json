@@ -3,18 +3,18 @@
         "company_id": "S3",
         "material_id": "S3_000000",
         "sale_site": "S3_DC1",
-        "sale_capacity": 16839.69,
-        "sale_price": 1037.86,
-        "sale_sla": 13,
-        "avg_fill_time": 5
+        "sale_capacity": 19415.74,
+        "sale_price": 1230.52,
+        "sale_sla": 3,
+        "avg_fill_time": 9
     },
     {
         "company_id": "S3",
         "material_id": "S3_000001",
         "sale_site": "S3_DC1",
-        "sale_capacity": 13996.39,
-        "sale_price": 155.85,
-        "sale_sla": 11,
-        "avg_fill_time": 4
+        "sale_capacity": 15531.08,
+        "sale_price": 454.33,
+        "sale_sla": 12,
+        "avg_fill_time": 5
     }
 ]

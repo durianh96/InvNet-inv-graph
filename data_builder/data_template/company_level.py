@@ -30,10 +30,10 @@ class CompanyData:
         company = {}
         for c_id, c in company_graph.nodes_pool.items():
             company[c_id] = {'desc': c.desc, 'contained_sites': {}}
-            for s_id in c.contained_dc_sites:
-                company[c_id]['contained_sites'][s_id] = 'DISTRIBUTION_CENTER'
-            for s_id in c.contained_mc_sites:
-                company[c_id]['contained_sites'][s_id] = 'MANUFACTURING_CENTER'
+            for s_id in c.contained_demand_sites:
+                company[c_id]['contained_sites'][s_id] = 'demand'
+            for s_id in c.contained_manu_sites:
+                company[c_id]['contained_sites'][s_id] = 'manu'
 
         self.company = company
 

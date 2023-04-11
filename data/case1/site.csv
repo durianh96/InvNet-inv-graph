@@ -1,11 +1,11 @@
-site_id,desc,loc,company_id,site_type
-S1_DC1,x,"(x, y)",S1,DISTRIBUTION_CENTER
-S2_DC1,x,"(x, y)",S2,DISTRIBUTION_CENTER
-S3_DC1,x,"(x, y)",S3,DISTRIBUTION_CENTER
-S4_DC1,x,"(x, y)",S4,DISTRIBUTION_CENTER
-A_MC,x,"(x, y)",A,MANUFACTURING_CENTER
-A_DC1,x,"(x, y)",A,DISTRIBUTION_CENTER
-B_MC1,x,"(x, y)",B,MANUFACTURING_CENTER
-B_MC2,x,"(x, y)",B,MANUFACTURING_CENTER
-B_DC1,x,"(x, y)",B,DISTRIBUTION_CENTER
-B_DC2,x,"(x, y)",B,DISTRIBUTION_CENTER
+site_id,company_id,desc,address,province,city,district
+S1_DC1,S1,x,x,x,x,x
+S2_DC1,S2,x,x,x,x,x
+S3_DC1,S3,x,x,x,x,x
+S4_DC1,S4,x,x,x,x,x
+A_MC,A,x,x,x,x,x
+A_DC1,A,x,x,x,x,x
+B_MC1,B,x,x,x,x,x
+B_MC2,B,x,x,x,x,x
+B_DC1,B,x,x,x,x,x
+B_DC2,B,x,x,x,x,x

@@ -3,735 +3,371 @@
         "company_id": "A",
         "manu_site": "A_MC",
         "component": "A_MT000016",
-        "assembly": "A_MT000029",
-        "qty": 1.11
-    },
-    {
-        "company_id": "A",
-        "manu_site": "A_MC",
-        "component": "A_MT000015",
-        "assembly": "A_MT000027",
-        "qty": 1.07
-    },
-    {
-        "company_id": "A",
-        "manu_site": "A_MC",
-        "component": "A_MT000003",
-        "assembly": "A_MT000016",
-        "qty": 1.63
-    },
-    {
-        "company_id": "A",
-        "manu_site": "A_MC",
-        "component": "A_MT000003",
-        "assembly": "A_MT000013",
-        "qty": 1.97
-    },
-    {
-        "company_id": "A",
-        "manu_site": "A_MC",
-        "component": "A_MT000023",
-        "assembly": "A_MT000028",
-        "qty": 0.17
-    },
-    {
-        "company_id": "A",
-        "manu_site": "A_MC",
-        "component": "A_MT000022",
         "assembly": "A_MT000026",
-        "qty": 2.86
+        "qty": 0.87
+    },
+    {
+        "company_id": "A",
+        "manu_site": "A_MC",
+        "component": "A_MT000013",
+        "assembly": "A_MT000027",
+        "qty": 1.54
+    },
+    {
+        "company_id": "A",
+        "manu_site": "A_MC",
+        "component": "A_MT000006",
+        "assembly": "A_MT000027",
+        "qty": 1.02
+    },
+    {
+        "company_id": "A",
+        "manu_site": "A_MC",
+        "component": "A_MT000020",
+        "assembly": "A_MT000026",
+        "qty": 2.0
+    },
+    {
+        "company_id": "A",
+        "manu_site": "A_MC",
+        "component": "A_MT000010",
+        "assembly": "A_MT000028",
+        "qty": 0.74
     },
     {
         "company_id": "A",
         "manu_site": "A_MC",
         "component": "A_MT000012",
         "assembly": "A_MT000025",
-        "qty": 1.29
-    },
-    {
-        "company_id": "A",
-        "manu_site": "A_MC",
-        "component": "A_MT000003",
-        "assembly": "A_MT000022",
-        "qty": 0.62
+        "qty": 1.51
     },
     {
         "company_id": "A",
         "manu_site": "A_MC",
         "component": "A_MT000000",
-        "assembly": "A_MT000005",
-        "qty": 1.01
+        "assembly": "A_MT000024",
+        "qty": 2.16
+    },
+    {
+        "company_id": "A",
+        "manu_site": "A_MC",
+        "component": "A_MT000000",
+        "assembly": "A_MT000008",
+        "qty": 2.97
     },
     {
         "company_id": "A",
         "manu_site": "A_MC",
         "component": "A_MT000000",
         "assembly": "A_MT000014",
-        "qty": 0.34
+        "qty": 1.84
     },
     {
         "company_id": "A",
         "manu_site": "A_MC",
-        "component": "A_MT000002",
+        "component": "A_MT000004",
+        "assembly": "A_MT000027",
+        "qty": 2.15
+    },
+    {
+        "company_id": "A",
+        "manu_site": "A_MC",
+        "component": "A_MT000000",
         "assembly": "A_MT000011",
-        "qty": 0.49
-    },
-    {
-        "company_id": "A",
-        "manu_site": "A_MC",
-        "component": "A_MT000001",
-        "assembly": "A_MT000009",
-        "qty": 2.39
-    },
-    {
-        "company_id": "A",
-        "manu_site": "A_MC",
-        "component": "A_MT000005",
-        "assembly": "A_MT000028",
-        "qty": 1.71
+        "qty": 0.33
     },
     {
         "company_id": "A",
         "manu_site": "A_MC",
         "component": "A_MT000002",
         "assembly": "A_MT000008",
-        "qty": 0.32
+        "qty": 1.78
     },
     {
         "company_id": "A",
         "manu_site": "A_MC",
-        "component": "A_MT000001",
-        "assembly": "A_MT000018",
-        "qty": 2.94
+        "component": "A_MT000009",
+        "assembly": "A_MT000029",
+        "qty": 2.07
+    },
+    {
+        "company_id": "A",
+        "manu_site": "A_MC",
+        "component": "A_MT000019",
+        "assembly": "A_MT000027",
+        "qty": 2.68
+    },
+    {
+        "company_id": "A",
+        "manu_site": "A_MC",
+        "component": "A_MT000002",
+        "assembly": "A_MT000023",
+        "qty": 0.87
     },
     {
         "company_id": "A",
         "manu_site": "A_MC",
         "component": "A_MT000001",
         "assembly": "A_MT000015",
-        "qty": 2.06
+        "qty": 1.0
     },
     {
         "company_id": "A",
         "manu_site": "A_MC",
-        "component": "A_MT000011",
-        "assembly": "A_MT000029",
-        "qty": 0.72
+        "component": "A_MT000002",
+        "assembly": "A_MT000020",
+        "qty": 1.85
     },
     {
         "company_id": "A",
         "manu_site": "A_MC",
-        "component": "A_MT000007",
-        "assembly": "A_MT000028",
-        "qty": 0.34
-    },
-    {
-        "company_id": "A",
-        "manu_site": "A_MC",
-        "component": "A_MT000018",
-        "assembly": "A_MT000028",
-        "qty": 0.76
+        "component": "A_MT000013",
+        "assembly": "A_MT000026",
+        "qty": 0.85
     },
     {
         "company_id": "A",
         "manu_site": "A_MC",
         "component": "A_MT000015",
         "assembly": "A_MT000029",
-        "qty": 2.98
+        "qty": 1.72
     },
     {
         "company_id": "A",
         "manu_site": "A_MC",
-        "component": "A_MT000006",
-        "assembly": "A_MT000026",
-        "qty": 1.36
+        "component": "A_MT000018",
+        "assembly": "A_MT000028",
+        "qty": 2.49
     },
     {
         "company_id": "A",
         "manu_site": "A_MC",
         "component": "A_MT000003",
         "assembly": "A_MT000006",
-        "qty": 1.15
-    },
-    {
-        "company_id": "A",
-        "manu_site": "A_MC",
-        "component": "A_MT000020",
-        "assembly": "A_MT000025",
-        "qty": 2.83
-    },
-    {
-        "company_id": "A",
-        "manu_site": "A_MC",
-        "component": "A_MT000018",
-        "assembly": "A_MT000025",
-        "qty": 1.61
+        "qty": 2.7
     },
     {
         "company_id": "A",
         "manu_site": "A_MC",
         "component": "A_MT000003",
-        "assembly": "A_MT000015",
-        "qty": 2.36
-    },
-    {
-        "company_id": "A",
-        "manu_site": "A_MC",
-        "component": "A_MT000022",
-        "assembly": "A_MT000028",
-        "qty": 2.92
+        "assembly": "A_MT000018",
+        "qty": 2.5
     },
     {
         "company_id": "A",
         "manu_site": "A_MC",
         "component": "A_MT000023",
         "assembly": "A_MT000027",
-        "qty": 2.95
+        "qty": 1.29
     },
     {
         "company_id": "A",
         "manu_site": "A_MC",
         "component": "A_MT000000",
         "assembly": "A_MT000007",
-        "qty": 1.29
-    },
-    {
-        "company_id": "A",
-        "manu_site": "A_MC",
-        "component": "A_MT000003",
-        "assembly": "A_MT000024",
-        "qty": 1.03
+        "qty": 0.03
     },
     {
         "company_id": "A",
         "manu_site": "A_MC",
         "component": "A_MT000002",
         "assembly": "A_MT000004",
-        "qty": 0.97
+        "qty": 2.02
     },
     {
         "company_id": "A",
         "manu_site": "A_MC",
         "component": "A_MT000000",
         "assembly": "A_MT000004",
-        "qty": 2.95
+        "qty": 2.56
     },
     {
         "company_id": "A",
         "manu_site": "A_MC",
         "component": "A_MT000000",
-        "assembly": "A_MT000016",
-        "qty": 0.38
+        "assembly": "A_MT000010",
+        "qty": 1.79
+    },
+    {
+        "company_id": "A",
+        "manu_site": "A_MC",
+        "component": "A_MT000002",
+        "assembly": "A_MT000007",
+        "qty": 1.3
     },
     {
         "company_id": "A",
         "manu_site": "A_MC",
         "component": "A_MT000001",
-        "assembly": "A_MT000011",
-        "qty": 1.1
+        "assembly": "A_MT000005",
+        "qty": 2.66
+    },
+    {
+        "company_id": "A",
+        "manu_site": "A_MC",
+        "component": "A_MT000009",
+        "assembly": "A_MT000027",
+        "qty": 2.97
     },
     {
         "company_id": "A",
         "manu_site": "A_MC",
         "component": "A_MT000002",
         "assembly": "A_MT000010",
-        "qty": 0.37
-    },
-    {
-        "company_id": "A",
-        "manu_site": "A_MC",
-        "component": "A_MT000001",
-        "assembly": "A_MT000008",
-        "qty": 1.76
-    },
-    {
-        "company_id": "A",
-        "manu_site": "A_MC",
-        "component": "A_MT000009",
-        "assembly": "A_MT000028",
-        "qty": 1.21
-    },
-    {
-        "company_id": "A",
-        "manu_site": "A_MC",
-        "component": "A_MT000017",
-        "assembly": "A_MT000029",
-        "qty": 2.63
-    },
-    {
-        "company_id": "A",
-        "manu_site": "A_MC",
-        "component": "A_MT000000",
-        "assembly": "A_MT000022",
-        "qty": 0.73
+        "qty": 1.26
     },
     {
         "company_id": "A",
         "manu_site": "A_MC",
         "component": "A_MT000002",
-        "assembly": "A_MT000019",
-        "qty": 2.3
+        "assembly": "A_MT000016",
+        "qty": 2.09
     },
     {
         "company_id": "A",
         "manu_site": "A_MC",
         "component": "A_MT000001",
         "assembly": "A_MT000017",
-        "qty": 0.29
+        "qty": 1.88
     },
     {
         "company_id": "A",
         "manu_site": "A_MC",
-        "component": "A_MT000010",
-        "assembly": "A_MT000029",
-        "qty": 2.34
+        "component": "A_MT000001",
+        "assembly": "A_MT000023",
+        "qty": 2.62
+    },
+    {
+        "company_id": "A",
+        "manu_site": "A_MC",
+        "component": "A_MT000024",
+        "assembly": "A_MT000025",
+        "qty": 0.38
     },
     {
         "company_id": "A",
         "manu_site": "A_MC",
         "component": "A_MT000024",
         "assembly": "A_MT000028",
-        "qty": 1.48
-    },
-    {
-        "company_id": "A",
-        "manu_site": "A_MC",
-        "component": "A_MT000015",
-        "assembly": "A_MT000025",
-        "qty": 0.94
-    },
-    {
-        "company_id": "A",
-        "manu_site": "A_MC",
-        "component": "A_MT000003",
-        "assembly": "A_MT000011",
-        "qty": 2.38
-    },
-    {
-        "company_id": "A",
-        "manu_site": "A_MC",
-        "component": "A_MT000006",
-        "assembly": "A_MT000028",
-        "qty": 0.66
-    },
-    {
-        "company_id": "A",
-        "manu_site": "A_MC",
-        "component": "A_MT000018",
-        "assembly": "A_MT000027",
-        "qty": 2.2
-    },
-    {
-        "company_id": "A",
-        "manu_site": "A_MC",
-        "component": "A_MT000003",
-        "assembly": "A_MT000008",
-        "qty": 1.52
-    },
-    {
-        "company_id": "A",
-        "manu_site": "A_MC",
-        "component": "A_MT000021",
-        "assembly": "A_MT000026",
-        "qty": 0.66
-    },
-    {
-        "company_id": "A",
-        "manu_site": "A_MC",
-        "component": "A_MT000004",
-        "assembly": "A_MT000028",
-        "qty": 0.07
-    },
-    {
-        "company_id": "A",
-        "manu_site": "A_MC",
-        "component": "A_MT000000",
-        "assembly": "A_MT000009",
-        "qty": 2.97
-    },
-    {
-        "company_id": "A",
-        "manu_site": "A_MC",
-        "component": "A_MT000014",
-        "assembly": "A_MT000026",
-        "qty": 2.58
-    },
-    {
-        "company_id": "A",
-        "manu_site": "A_MC",
-        "component": "A_MT000001",
-        "assembly": "A_MT000004",
-        "qty": 0.88
-    },
-    {
-        "company_id": "A",
-        "manu_site": "A_MC",
-        "component": "A_MT000000",
-        "assembly": "A_MT000006",
-        "qty": 2.02
-    },
-    {
-        "company_id": "A",
-        "manu_site": "A_MC",
-        "component": "A_MT000012",
-        "assembly": "A_MT000029",
-        "qty": 2.72
-    },
-    {
-        "company_id": "A",
-        "manu_site": "A_MC",
-        "component": "A_MT000001",
-        "assembly": "A_MT000013",
-        "qty": 0.69
-    },
-    {
-        "company_id": "A",
-        "manu_site": "A_MC",
-        "component": "A_MT000002",
-        "assembly": "A_MT000012",
-        "qty": 2.87
-    },
-    {
-        "company_id": "A",
-        "manu_site": "A_MC",
-        "component": "A_MT000001",
-        "assembly": "A_MT000010",
-        "qty": 1.9
-    },
-    {
-        "company_id": "A",
-        "manu_site": "A_MC",
-        "component": "A_MT000005",
-        "assembly": "A_MT000029",
-        "qty": 1.06
-    },
-    {
-        "company_id": "A",
-        "manu_site": "A_MC",
-        "component": "A_MT000019",
-        "assembly": "A_MT000028",
-        "qty": 0.84
-    },
-    {
-        "company_id": "A",
-        "manu_site": "A_MC",
-        "component": "A_MT000000",
-        "assembly": "A_MT000024",
-        "qty": 1.91
-    },
-    {
-        "company_id": "A",
-        "manu_site": "A_MC",
-        "component": "A_MT000002",
-        "assembly": "A_MT000021",
-        "qty": 2.2
-    },
-    {
-        "company_id": "A",
-        "manu_site": "A_MC",
-        "component": "A_MT000008",
-        "assembly": "A_MT000025",
-        "qty": 0.39
-    },
-    {
-        "company_id": "A",
-        "manu_site": "A_MC",
-        "component": "A_MT000016",
-        "assembly": "A_MT000026",
-        "qty": 1.42
+        "qty": 1.72
     },
     {
         "company_id": "A",
         "manu_site": "A_MC",
         "component": "A_MT000007",
-        "assembly": "A_MT000029",
-        "qty": 2.01
+        "assembly": "A_MT000027",
+        "qty": 0.42
     },
     {
         "company_id": "A",
         "manu_site": "A_MC",
         "component": "A_MT000021",
-        "assembly": "A_MT000028",
-        "qty": 0.97
-    },
-    {
-        "company_id": "A",
-        "manu_site": "A_MC",
-        "component": "A_MT000021",
-        "assembly": "A_MT000025",
-        "qty": 2.68
-    },
-    {
-        "company_id": "A",
-        "manu_site": "A_MC",
-        "component": "A_MT000003",
-        "assembly": "A_MT000019",
-        "qty": 2.32
-    },
-    {
-        "company_id": "A",
-        "manu_site": "A_MC",
-        "component": "A_MT000022",
-        "assembly": "A_MT000029",
-        "qty": 1.52
-    },
-    {
-        "company_id": "A",
-        "manu_site": "A_MC",
-        "component": "A_MT000014",
-        "assembly": "A_MT000028",
-        "qty": 0.08
-    },
-    {
-        "company_id": "A",
-        "manu_site": "A_MC",
-        "component": "A_MT000004",
-        "assembly": "A_MT000027",
-        "qty": 2.35
-    },
-    {
-        "company_id": "A",
-        "manu_site": "A_MC",
-        "component": "A_MT000002",
-        "assembly": "A_MT000005",
-        "qty": 1.54
-    },
-    {
-        "company_id": "A",
-        "manu_site": "A_MC",
-        "component": "A_MT000002",
-        "assembly": "A_MT000014",
-        "qty": 0.65
-    },
-    {
-        "company_id": "A",
-        "manu_site": "A_MC",
-        "component": "A_MT000001",
-        "assembly": "A_MT000012",
-        "qty": 2.83
-    },
-    {
-        "company_id": "A",
-        "manu_site": "A_MC",
-        "component": "A_MT000009",
-        "assembly": "A_MT000029",
-        "qty": 2.12
-    },
-    {
-        "company_id": "A",
-        "manu_site": "A_MC",
-        "component": "A_MT000019",
-        "assembly": "A_MT000027",
-        "qty": 0.71
-    },
-    {
-        "company_id": "A",
-        "manu_site": "A_MC",
-        "component": "A_MT000002",
-        "assembly": "A_MT000023",
-        "qty": 0.31
-    },
-    {
-        "company_id": "A",
-        "manu_site": "A_MC",
-        "component": "A_MT000001",
-        "assembly": "A_MT000021",
-        "qty": 0.88
-    },
-    {
-        "company_id": "A",
-        "manu_site": "A_MC",
-        "component": "A_MT000013",
-        "assembly": "A_MT000029",
-        "qty": 2.66
-    },
-    {
-        "company_id": "A",
-        "manu_site": "A_MC",
-        "component": "A_MT000015",
         "assembly": "A_MT000026",
-        "qty": 1.28
-    },
-    {
-        "company_id": "A",
-        "manu_site": "A_MC",
-        "component": "A_MT000003",
-        "assembly": "A_MT000012",
-        "qty": 0.07
-    },
-    {
-        "company_id": "A",
-        "manu_site": "A_MC",
-        "component": "A_MT000020",
-        "assembly": "A_MT000028",
-        "qty": 0.79
-    },
-    {
-        "company_id": "A",
-        "manu_site": "A_MC",
-        "component": "A_MT000006",
-        "assembly": "A_MT000029",
-        "qty": 1.29
-    },
-    {
-        "company_id": "A",
-        "manu_site": "A_MC",
-        "component": "A_MT000003",
-        "assembly": "A_MT000021",
-        "qty": 0.33
-    },
-    {
-        "company_id": "A",
-        "manu_site": "A_MC",
-        "component": "A_MT000014",
-        "assembly": "A_MT000027",
-        "qty": 1.53
-    },
-    {
-        "company_id": "A",
-        "manu_site": "A_MC",
-        "component": "A_MT000001",
-        "assembly": "A_MT000005",
-        "qty": 1.08
-    },
-    {
-        "company_id": "A",
-        "manu_site": "A_MC",
-        "component": "A_MT000001",
-        "assembly": "A_MT000014",
-        "qty": 2.71
-    },
-    {
-        "company_id": "A",
-        "manu_site": "A_MC",
-        "component": "A_MT000002",
-        "assembly": "A_MT000013",
-        "qty": 1.5
-    },
-    {
-        "company_id": "A",
-        "manu_site": "A_MC",
-        "component": "A_MT000011",
-        "assembly": "A_MT000028",
-        "qty": 0.55
-    },
-    {
-        "company_id": "A",
-        "manu_site": "A_MC",
-        "component": "A_MT000001",
-        "assembly": "A_MT000023",
-        "qty": 2.9
-    },
-    {
-        "company_id": "A",
-        "manu_site": "A_MC",
-        "component": "A_MT000024",
-        "assembly": "A_MT000025",
-        "qty": 0.62
-    },
-    {
-        "company_id": "A",
-        "manu_site": "A_MC",
-        "component": "A_MT000011",
-        "assembly": "A_MT000025",
-        "qty": 1.01
-    },
-    {
-        "company_id": "A",
-        "manu_site": "A_MC",
-        "component": "A_MT000015",
-        "assembly": "A_MT000028",
-        "qty": 0.96
-    },
-    {
-        "company_id": "A",
-        "manu_site": "A_MC",
-        "component": "A_MT000016",
-        "assembly": "A_MT000027",
-        "qty": 2.48
+        "qty": 0.43
     },
     {
         "company_id": "A",
         "manu_site": "A_MC",
         "component": "A_MT000022",
         "assembly": "A_MT000027",
-        "qty": 0.9
-    },
-    {
-        "company_id": "A",
-        "manu_site": "A_MC",
-        "component": "A_MT000012",
-        "assembly": "A_MT000026",
-        "qty": 0.3
-    },
-    {
-        "company_id": "A",
-        "manu_site": "A_MC",
-        "component": "A_MT000003",
-        "assembly": "A_MT000023",
-        "qty": 1.92
-    },
-    {
-        "company_id": "A",
-        "manu_site": "A_MC",
-        "component": "A_MT000003",
-        "assembly": "A_MT000020",
-        "qty": 0.78
+        "qty": 0.14
     },
     {
         "company_id": "A",
         "manu_site": "A_MC",
         "component": "A_MT000014",
         "assembly": "A_MT000029",
-        "qty": 0.9
+        "qty": 0.26
     },
     {
         "company_id": "A",
         "manu_site": "A_MC",
         "component": "A_MT000002",
         "assembly": "A_MT000009",
-        "qty": 2.93
-    },
-    {
-        "company_id": "A",
-        "manu_site": "A_MC",
-        "component": "A_MT000005",
-        "assembly": "A_MT000026",
-        "qty": 2.79
-    },
-    {
-        "company_id": "A",
-        "manu_site": "A_MC",
-        "component": "A_MT000017",
-        "assembly": "A_MT000028",
-        "qty": 0.78
-    },
-    {
-        "company_id": "A",
-        "manu_site": "A_MC",
-        "component": "A_MT000002",
-        "assembly": "A_MT000006",
-        "qty": 2.57
+        "qty": 2.02
     },
     {
         "company_id": "A",
         "manu_site": "A_MC",
         "component": "A_MT000001",
-        "assembly": "A_MT000016",
-        "qty": 2.34
+        "assembly": "A_MT000013",
+        "qty": 2.54
     },
     {
         "company_id": "A",
         "manu_site": "A_MC",
         "component": "A_MT000000",
-        "assembly": "A_MT000018",
-        "qty": 2.45
+        "assembly": "A_MT000015",
+        "qty": 1.75
     },
     {
         "company_id": "A",
         "manu_site": "A_MC",
         "component": "A_MT000002",
-        "assembly": "A_MT000024",
-        "qty": 1.66
+        "assembly": "A_MT000012",
+        "qty": 1.17
+    },
+    {
+        "company_id": "A",
+        "manu_site": "A_MC",
+        "component": "A_MT000000",
+        "assembly": "A_MT000021",
+        "qty": 1.35
+    },
+    {
+        "company_id": "A",
+        "manu_site": "A_MC",
+        "component": "A_MT000017",
+        "assembly": "A_MT000025",
+        "qty": 0.02
+    },
+    {
+        "company_id": "A",
+        "manu_site": "A_MC",
+        "component": "A_MT000005",
+        "assembly": "A_MT000029",
+        "qty": 2.1
+    },
+    {
+        "company_id": "A",
+        "manu_site": "A_MC",
+        "component": "A_MT000002",
+        "assembly": "A_MT000015",
+        "qty": 1.53
+    },
+    {
+        "company_id": "A",
+        "manu_site": "A_MC",
+        "component": "A_MT000002",
+        "assembly": "A_MT000021",
+        "qty": 2.11
+    },
+    {
+        "company_id": "A",
+        "manu_site": "A_MC",
+        "component": "A_MT000001",
+        "assembly": "A_MT000019",
+        "qty": 0.56
+    },
+    {
+        "company_id": "A",
+        "manu_site": "A_MC",
+        "component": "A_MT000008",
+        "assembly": "A_MT000028",
+        "qty": 1.04
+    },
+    {
+        "company_id": "A",
+        "manu_site": "A_MC",
+        "component": "A_MT000011",
+        "assembly": "A_MT000027",
+        "qty": 1.84
+    },
+    {
+        "company_id": "A",
+        "manu_site": "A_MC",
+        "component": "A_MT000001",
+        "assembly": "A_MT000022",
+        "qty": 1.13
     }
 ]

@@ -53,7 +53,7 @@ class InvNet:
     def write_all_to_file(self, root_file_dir, file_type='json'):
         """
         It writes all the data in the data pool to files
-        
+
         Args:
           root_file_dir: the directory where you want to save the data
           file_type: the type of file you want to write to. Defaults to json
@@ -125,9 +125,6 @@ class InvNet:
             self.company_graph, self.site_graph, self.detail_data_pool
         )
 
-        self._material_graph.update_default_alter_decision_ratio()
-        self._material_graph.update_cum_lt_info()
-
     def company_graph_building_from_input(self, company, company_relationship):
         company_data = CompanyData(company)
         company_relationship_data = CompanyRelationshipData(company_relationship)
@@ -142,46 +139,33 @@ class InvNet:
         self._material_graph, self._site_graph = default_material_graph_builder(
             self.company_graph, self.site_graph, detail_data_pool
         )
-        self._material_graph.update_default_alter_decision_ratio()
-        self._material_graph.update_cum_lt_info()
 
-    def get_sub_inv_net(self, c_id):
+    def get_company_inv_net(self, c_id):
         """
-        > Given a company id, return a sub inventory network that only contains the company and its
-        contained sites and materials
-        
+        It returns the inventory net of a company
         Args:
-          c_id: the company id
-        
+            c_id:
+
         Returns:
-          A sub_inv_net object
+
         """
         sub_company_nodes = [c_id]
-        sub_company_graph = self.company_graph.get_sub_graph_from_sub_nodes(sub_company_nodes)
+        sub_company_edges = [(pred, succ) for (pred, succ) in self.company_graph.edges if succ in sub_company_nodes]
+        sub_company_graph = self.company_graph.get_sub_graph_from_sub_edges(sub_company_edges)
 
         sub_site_nodes = self.company_graph.nodes_pool[c_id].contained_sites
-        sub_site_graph = self.site_graph.get_sub_graph_from_sub_nodes(sub_site_nodes)
+        sub_site_edges = [(pred, succ) for (pred, succ) in self.site_graph.edges if succ in sub_site_nodes]
+        sub_site_graph = self.site_graph.get_sub_graph_from_sub_edges(sub_site_edges)
 
         sub_material_nodes = []
         for s_id in sub_site_nodes:
             sub_material_nodes.extend(list(sub_site_graph.nodes_pool[s_id].contained_materials))
-        sub_material_graph = self.material_graph.get_sub_graph_from_sub_nodes(sub_material_nodes)
+        sub_material_edges = [(pred, succ) for (pred, succ) in self.material_graph.edges if succ in sub_material_nodes]
 
+        sub_material_graph = self.material_graph.get_sub_graph_from_sub_edges(sub_material_edges)
+
+        sub_material_graph.update_topo_info()
         sub_material_graph.update_net_qty()
-
-        for n_id, n in sub_material_graph.nodes_pool.items():
-            if n_id in self._material_graph.roots:
-                n_lt = n.process_lt + n.avg_fill_time
-            elif n_id in sub_material_graph.roots:
-                n_lt = n.process_lt + [e['transit_lt'] + self._material_graph.nodes_pool[e_id[0]].avg_fill_time
-                                       for e_id, e in
-                                       self._material_graph.nodes_pool[n_id].incoming_edges_info.items()][0]
-            else:
-                n_lt = n.process_lt + max([e['transit_lt'] for e in n.incoming_edges_info.values()])
-            n.update_lt(n_lt)
-
-        sub_material_graph.update_default_alter_decision_ratio()
-        sub_material_graph.update_cum_lt_info()
 
         sub_detail_data_pool = {c_id: self.detail_data_pool[c_id]}
 

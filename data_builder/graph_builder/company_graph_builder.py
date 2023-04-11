@@ -11,16 +11,16 @@ def default_company_graph_builder(company_data: CompanyData, company_relationshi
         if type(company_info['contained_sites']) == str:
             company_info['contained_sites'] = ast.literal_eval(company_info['contained_sites'])
         contained_sites = set(company_info['contained_sites'].keys())
-        contained_dc_sites = {site for site, site_type in company_info['contained_sites'].items()
-                              if site_type == 'DISTRIBUTION_CENTER'}
-        contained_mc_sites = {site for site, site_type in company_info['contained_sites'].items()
-                              if site_type == 'MANUFACTURING_CENTER'}
+        contained_demand_sites = {site for site, site_type in company_info['contained_sites'].items()
+                                  if site_type == 'demand'}
+        contained_manu_sites = {site for site, site_type in company_info['contained_sites'].items()
+                                if site_type == 'manu'}
         _nodes_pool[company_id] = CompanyNode(
             node_id=company_id,
             desc=company_info['desc'],
             contained_sites=contained_sites,
-            contained_dc_sites=contained_dc_sites,
-            contained_mc_sites=contained_mc_sites
+            contained_demand_sites=contained_demand_sites,
+            contained_manu_sites=contained_manu_sites
         )
     _edges_pool = {}
     for e in company_relationship_data.company_relationship:

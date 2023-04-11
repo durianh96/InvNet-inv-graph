@@ -1,7 +1,5 @@
 from typing import Union, Optional
 
-DEFAULT_TRANSIT_LT = 7
-
 
 class Edge:
     def __init__(self, u: str, v: str, desc: Optional[str] = None):
@@ -58,7 +56,7 @@ class TransitEdge(Edge):  # transit edge between sites
         self._u_company = u_company
         self._v_company = v_company
         if transit_lt is None:
-            self._transit_lt = DEFAULT_TRANSIT_LT
+            self._transit_lt = 0
         else:
             self._transit_lt = transit_lt
         self._edge_level = 'TRANSIT'
@@ -133,12 +131,6 @@ class MaterialEdge(Edge):  # edge between materials
 
     @property
     def material_edge_info(self):
-        info = {'original_qty': self._original_qty, 'decision_ratio': self._decision_ratio, 'qty': self.qty,
-                'transit_lt': self._transit_lt}
-        return info
-
-    @property
-    def material_edge_full_str_info(self):
         info = {'edge_id': self._edge_id, 'u': self._u, 'v': self._v, 'u_site': self._u_site,
                 'v_site': self._v_site, 'original_qty': self._original_qty,
                 'decision_ratio': self._decision_ratio, 'qty': self.qty, 'transit_lt': self._transit_lt,
@@ -154,6 +146,3 @@ class MaterialEdge(Edge):  # edge between materials
 
     def update_transit_lt(self, new_transit_lt):
         self._transit_lt = new_transit_lt
-
-
-

@@ -2,41 +2,41 @@
     "S1": {
         "desc": "x",
         "contained_sites": {
-            "S1_DC1": "DISTRIBUTION_CENTER"
+            "S1_DC1": "demand"
         }
     },
     "S2": {
         "desc": "x",
         "contained_sites": {
-            "S2_DC1": "DISTRIBUTION_CENTER"
+            "S2_DC1": "demand"
         }
     },
     "S3": {
         "desc": "x",
         "contained_sites": {
-            "S3_DC1": "DISTRIBUTION_CENTER"
+            "S3_DC1": "demand"
         }
     },
     "S4": {
         "desc": "x",
         "contained_sites": {
-            "S4_DC1": "DISTRIBUTION_CENTER"
+            "S4_DC1": "demand"
         }
     },
     "A": {
         "desc": "x",
         "contained_sites": {
-            "A_DC1": "DISTRIBUTION_CENTER",
-            "A_MC": "MANUFACTURING_CENTER"
+            "A_DC1": "demand",
+            "A_MC": "manu"
         }
     },
     "B": {
         "desc": "x",
         "contained_sites": {
-            "B_DC1": "DISTRIBUTION_CENTER",
-            "B_DC2": "DISTRIBUTION_CENTER",
-            "B_MC2": "MANUFACTURING_CENTER",
-            "B_MC1": "MANUFACTURING_CENTER"
+            "B_DC2": "demand",
+            "B_DC1": "demand",
+            "B_MC1": "manu",
+            "B_MC2": "manu"
         }
     }
 }

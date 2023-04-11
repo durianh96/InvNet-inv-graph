@@ -1,69 +1,14 @@
 [
     {
         "company_id": "B",
-        "material_id": "S3_000000",
-        "supplier": "S3",
-        "supply_site": "S3_DC1",
-        "order_site": "B_MC2",
-        "order_cycle": 0,
-        "order_capacity": 16839.69,
-        "purchase_price": 1037.86,
-        "order_sla": 13
-    },
-    {
-        "company_id": "B",
-        "material_id": "S3_000000",
-        "supplier": "S3",
-        "supply_site": "S3_DC1",
-        "order_site": "B_MC1",
-        "order_cycle": 0,
-        "order_capacity": 16839.69,
-        "purchase_price": 1037.86,
-        "order_sla": 13
-    },
-    {
-        "company_id": "B",
-        "material_id": "S3_000001",
-        "supplier": "S3",
-        "supply_site": "S3_DC1",
-        "order_site": "B_MC2",
-        "order_cycle": 0,
-        "order_capacity": 13996.39,
-        "purchase_price": 155.85,
-        "order_sla": 11
-    },
-    {
-        "company_id": "B",
-        "material_id": "S3_000001",
-        "supplier": "S3",
-        "supply_site": "S3_DC1",
-        "order_site": "B_MC1",
-        "order_cycle": 0,
-        "order_capacity": 13996.39,
-        "purchase_price": 155.85,
-        "order_sla": 11
-    },
-    {
-        "company_id": "B",
-        "material_id": "A_MT000028",
-        "supplier": "A",
-        "supply_site": "A_DC1",
-        "order_site": "B_MC2",
-        "order_cycle": 0,
-        "order_capacity": 19949.54,
-        "purchase_price": 208647.3,
-        "order_sla": 12
-    },
-    {
-        "company_id": "B",
-        "material_id": "A_MT000028",
+        "material_id": "A_MT000025",
         "supplier": "A",
         "supply_site": "A_DC1",
         "order_site": "B_MC1",
         "order_cycle": 0,
-        "order_capacity": 19949.54,
-        "purchase_price": 208647.3,
-        "order_sla": 12
+        "order_capacity": 14454.34,
+        "purchase_price": 9496.95,
+        "order_sla": 11
     },
     {
         "company_id": "B",
@@ -72,42 +17,64 @@
         "supply_site": "A_DC1",
         "order_site": "B_MC2",
         "order_cycle": 0,
-        "order_capacity": 12512.72,
-        "purchase_price": 135883.86,
-        "order_sla": 4
+        "order_capacity": 14454.34,
+        "purchase_price": 9496.95,
+        "order_sla": 11
     },
     {
         "company_id": "B",
-        "material_id": "A_MT000025",
+        "material_id": "A_MT000028",
         "supplier": "A",
         "supply_site": "A_DC1",
         "order_site": "B_MC1",
         "order_cycle": 0,
-        "order_capacity": 12512.72,
-        "purchase_price": 135883.86,
-        "order_sla": 4
+        "order_capacity": 11269.92,
+        "purchase_price": 41401.86,
+        "order_sla": 3
     },
     {
         "company_id": "B",
-        "material_id": "A_MT000026",
+        "material_id": "A_MT000028",
         "supplier": "A",
         "supply_site": "A_DC1",
         "order_site": "B_MC2",
         "order_cycle": 0,
-        "order_capacity": 11115.65,
-        "purchase_price": 174503.3,
-        "order_sla": 6
+        "order_capacity": 11269.92,
+        "purchase_price": 41401.86,
+        "order_sla": 3
     },
     {
         "company_id": "B",
-        "material_id": "A_MT000026",
+        "material_id": "A_MT000016",
         "supplier": "A",
         "supply_site": "A_DC1",
         "order_site": "B_MC1",
         "order_cycle": 0,
-        "order_capacity": 11115.65,
-        "purchase_price": 174503.3,
+        "order_capacity": 13954.05,
+        "purchase_price": 5237.74,
         "order_sla": 6
+    },
+    {
+        "company_id": "B",
+        "material_id": "A_MT000016",
+        "supplier": "A",
+        "supply_site": "A_DC1",
+        "order_site": "B_MC2",
+        "order_cycle": 0,
+        "order_capacity": 13954.05,
+        "purchase_price": 5237.74,
+        "order_sla": 6
+    },
+    {
+        "company_id": "B",
+        "material_id": "A_MT000027",
+        "supplier": "A",
+        "supply_site": "A_DC1",
+        "order_site": "B_MC1",
+        "order_cycle": 0,
+        "order_capacity": 18150.17,
+        "purchase_price": 74832.49,
+        "order_sla": 13
     },
     {
         "company_id": "B",
@@ -116,20 +83,42 @@
         "supply_site": "A_DC1",
         "order_site": "B_MC2",
         "order_cycle": 0,
-        "order_capacity": 14430.98,
-        "purchase_price": 284628.5,
-        "order_sla": 5
+        "order_capacity": 18150.17,
+        "purchase_price": 74832.49,
+        "order_sla": 13
     },
     {
         "company_id": "B",
-        "material_id": "A_MT000027",
+        "material_id": "A_MT000026",
         "supplier": "A",
         "supply_site": "A_DC1",
         "order_site": "B_MC1",
         "order_cycle": 0,
-        "order_capacity": 14430.98,
-        "purchase_price": 284628.5,
+        "order_capacity": 17627.32,
+        "purchase_price": 30228.0,
         "order_sla": 5
+    },
+    {
+        "company_id": "B",
+        "material_id": "A_MT000026",
+        "supplier": "A",
+        "supply_site": "A_DC1",
+        "order_site": "B_MC2",
+        "order_cycle": 0,
+        "order_capacity": 17627.32,
+        "purchase_price": 30228.0,
+        "order_sla": 5
+    },
+    {
+        "company_id": "B",
+        "material_id": "A_MT000029",
+        "supplier": "A",
+        "supply_site": "A_DC1",
+        "order_site": "B_MC1",
+        "order_cycle": 0,
+        "order_capacity": 14277.31,
+        "purchase_price": 65073.97,
+        "order_sla": 10
     },
     {
         "company_id": "B",
@@ -138,42 +127,64 @@
         "supply_site": "A_DC1",
         "order_site": "B_MC2",
         "order_cycle": 0,
-        "order_capacity": 17616.76,
-        "purchase_price": 291492.92,
-        "order_sla": 4
+        "order_capacity": 14277.31,
+        "purchase_price": 65073.97,
+        "order_sla": 10
     },
     {
         "company_id": "B",
-        "material_id": "A_MT000029",
-        "supplier": "A",
-        "supply_site": "A_DC1",
+        "material_id": "S3_000000",
+        "supplier": "S3",
+        "supply_site": "S3_DC1",
         "order_site": "B_MC1",
         "order_cycle": 0,
-        "order_capacity": 17616.76,
-        "purchase_price": 291492.92,
-        "order_sla": 4
+        "order_capacity": 19415.74,
+        "purchase_price": 1230.52,
+        "order_sla": 3
     },
     {
         "company_id": "B",
-        "material_id": "A_MT000021",
-        "supplier": "A",
-        "supply_site": "A_DC1",
+        "material_id": "S3_000000",
+        "supplier": "S3",
+        "supply_site": "S3_DC1",
         "order_site": "B_MC2",
         "order_cycle": 0,
-        "order_capacity": 11175.32,
-        "purchase_price": 15509.03,
-        "order_sla": 8
+        "order_capacity": 19415.74,
+        "purchase_price": 1230.52,
+        "order_sla": 3
     },
     {
         "company_id": "B",
-        "material_id": "A_MT000021",
-        "supplier": "A",
-        "supply_site": "A_DC1",
+        "material_id": "S3_000001",
+        "supplier": "S3",
+        "supply_site": "S3_DC1",
         "order_site": "B_MC1",
         "order_cycle": 0,
-        "order_capacity": 11175.32,
-        "purchase_price": 15509.03,
-        "order_sla": 8
+        "order_capacity": 15531.08,
+        "purchase_price": 454.33,
+        "order_sla": 12
+    },
+    {
+        "company_id": "B",
+        "material_id": "S3_000001",
+        "supplier": "S3",
+        "supply_site": "S3_DC1",
+        "order_site": "B_MC2",
+        "order_cycle": 0,
+        "order_capacity": 15531.08,
+        "purchase_price": 454.33,
+        "order_sla": 12
+    },
+    {
+        "company_id": "B",
+        "material_id": "S4_000000",
+        "supplier": "S4",
+        "supply_site": "S4_DC1",
+        "order_site": "B_MC1",
+        "order_cycle": 0,
+        "order_capacity": 15218.64,
+        "purchase_price": 567.68,
+        "order_sla": 12
     },
     {
         "company_id": "B",
@@ -182,20 +193,20 @@
         "supply_site": "S4_DC1",
         "order_site": "B_MC2",
         "order_cycle": 0,
-        "order_capacity": 11245.97,
-        "purchase_price": 2900.79,
-        "order_sla": 10
+        "order_capacity": 15218.64,
+        "purchase_price": 567.68,
+        "order_sla": 12
     },
     {
         "company_id": "B",
-        "material_id": "S4_000000",
+        "material_id": "S4_000001",
         "supplier": "S4",
         "supply_site": "S4_DC1",
         "order_site": "B_MC1",
         "order_cycle": 0,
-        "order_capacity": 11245.97,
-        "purchase_price": 2900.79,
-        "order_sla": 10
+        "order_capacity": 19478.86,
+        "purchase_price": 2351.84,
+        "order_sla": 6
     },
     {
         "company_id": "B",
@@ -204,19 +215,8 @@
         "supply_site": "S4_DC1",
         "order_site": "B_MC2",
         "order_cycle": 0,
-        "order_capacity": 16864.87,
-        "purchase_price": 2826.45,
-        "order_sla": 10
-    },
-    {
-        "company_id": "B",
-        "material_id": "S4_000001",
-        "supplier": "S4",
-        "supply_site": "S4_DC1",
-        "order_site": "B_MC1",
-        "order_cycle": 0,
-        "order_capacity": 16864.87,
-        "purchase_price": 2826.45,
-        "order_sla": 10
+        "order_capacity": 19478.86,
+        "purchase_price": 2351.84,
+        "order_sla": 6
     }
 ]
